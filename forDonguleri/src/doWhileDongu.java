@@ -11,7 +11,8 @@ public class doWhileDongu {
             toplam += sayi % 10;
             sayi /= 10;
             System.out.println("sayi: "+sayi);
-        }while (sayi>0);
+        }
+        while (sayi>0);
             System.out.println( "rakamları toplamı: "+toplam);
 
 

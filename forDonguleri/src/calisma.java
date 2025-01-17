@@ -21,7 +21,7 @@ public class calisma {
             i += 3;
         }*/
 
-        Scanner scanner =new Scanner(System.in);
+        /*Scanner scanner =new Scanner(System.in);
         System.out.println("sayı girin: ");
         int sayi = scanner.nextInt();
 
@@ -32,6 +32,28 @@ public class calisma {
         }
 
         System.out.print("faktoriyel: " + faktoriyel);
+
+         */
+
+        Scanner scanner = new Scanner(System.in);
+        //ic ice for döngüsü ile çarpım tablosu
+
+        System.out.println("Çarpım Tablosuna Hoşgeldiniz");
+        for(int i=1; i<=10;i++){
+            System.out.println("**********************");
+
+            for(int j=1; j<=10; j++){
+
+                System.out.println( i + "x"+ j + " = " +(i*j));
+
+
+            }
+
+        }
+        System.out.println("**********************");
+
+
+
 
     }
 }
